@@ -1,3 +1,4 @@
+import FileUpload from "@/components/FileUpload"
 import { Button } from "@/components/ui/button"
 import { currentUser } from "@clerk/nextjs"
 import { LogIn } from "lucide-react"
@@ -17,15 +18,17 @@ export default async function Home() {
 
         {!user ? (
           <Link href={`/sign-in`}>
-            <Button className="mt-2">
+            <Button className="m-2">
               Login to get Started <LogIn />
             </Button>
           </Link>
         ) : (
-          <Button className="mt-2">
+          <Button className="m-2">
              Go to charts
           </Button>
         )}
+
+        <FileUpload />
       </div>
     </div>
   )

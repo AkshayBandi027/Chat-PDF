@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1695122262678,
+      "tag": "0000_minor_kate_bishop",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1695122682695,
+      "tag": "0001_tricky_sersi",
+      "breakpoints": true
+    }
+  ]
+}
